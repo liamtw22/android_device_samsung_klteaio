@@ -15,10 +15,10 @@
 # limitations under the License.
 #
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common HavocOS stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 $(call inherit-product, device/samsung/klteaio/full_klteaio.mk)
 
 PRODUCT_DEVICE := klteaio
-PRODUCT_NAME := lineage_klteaio
+PRODUCT_NAME := havoc_klteaio
