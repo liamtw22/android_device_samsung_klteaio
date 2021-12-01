@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_klteaio.mk
+    $(LOCAL_DIR)/havoc_klteaio.mk
